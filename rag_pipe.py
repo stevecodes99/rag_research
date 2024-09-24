@@ -18,7 +18,7 @@ from langgraph.graph import END, StateGraph, START
 def setup_environment():
     os.environ["LANGCHAIN_TRACING_V2"] = "true"
     os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-    os.environ["LANGCHAIN_API_KEY"] = "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"
+    os.environ["LANGCHAIN_API_KEY"] = "-----" # Private
 
 
 # Load Documents
